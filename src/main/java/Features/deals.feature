@@ -1,16 +1,14 @@
-Feature: Deal data creation
+Feature: Deal Data Creation
 
-Scenario: Free CRM Create a new deal scenario
+Scenario: Free CRM creating a new Deal Scenario
 
 Given user is already on Login Page
 When title of login page is Free CRM
 Then user enters username and password
-| naveenk | test@123 |
-
+|anjuthomas|nvrsynvr|
 Then user clicks on login button
 Then user is on home page
-Then user moves to new deal page
-Then user enters deal details
+Then user moves to deals page
+Then click on new deal
 | test deal | 1000 | 50 | 10 |
-
-Then Close the browser
+Then close the browser
